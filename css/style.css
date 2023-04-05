@@ -1,37 +1,38 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Roboto:wght@300&display=swap');
 body{
-    background-color: #fbfbfb;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
 }
 section{
-    width :1200px;
+    width: 1200px;
     margin: 0 auto;
-}   
-#hearder{
+}
+#header{
     padding: 50px;
 }
 #header div{
     display: inline-block;
 }
-#hearder .contato{
+#header .contato{
     float: right;
 }
 nav.menu{
-    background-color:  #dbf614;
+    background-color: #ffda1f;
     text-align: center;
 }
 nav.menu ul li{
     display: inline-block;
     padding: 18px 90px;
-    font-size:17px;
+    font-size: 17px;
 }
 nav.menu ul li a{
-    color: #000;
+    color: black;
 }
 a{
     text-decoration: none;
 }
-.banner img {
+.banner img{
     width: 100%;
 }
 .marcas ul li{
@@ -39,57 +40,84 @@ a{
     font-size: 35px;
     width: 16%;
     padding: 50px;
-    line-height: 25px;
 }
-.financiamento {
-    background: #dbf614;
-    text-align: center;
-    font-size: 30px;
-    padding: 50px;
-    font-weight: bold;
-    line-height: 40px;
-}
-.item{
+.item {
     display: inline-block;
     width: 30%;
-    padding: 1.5%;
-    text-align: center;
+    padding: 0.5%;
     font-size: 20px;
+    text-align: center;
     line-height: 25px;
-    font-weight: 40px;
     color: #474747;
 }
-a:hover{
-    transition: 0.3s;
-    opacity: 0.8;
+img {
+    width: 100%;
+}
+.title {
+    font-size: 23px;
+    font-weight: bold;
+}
+.financiamento{
+    background: #ffda1f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px;
+    line-height: 40px;
 }
 .botao a {
     background: #000;
-    color: white;
-    padding-top: 7px;
+    color: #fff;
+    padding: 10px 30px;
 }
-.botao{
-    margin-top: 20px;
+.botao {
+    margin-top: 10px;
 }
-.produtos{
+.produtos, .depoimentos{
     text-align: center;
+    margin: 50px 0;
 }
-.produtos .titulo{
+.titulo{
     font-size: 45px;
     font-weight: bold;
 }
-.produtos .subtitulo{
+.subtitulo{
     font-size: 30px;
     font-weight: bold;
     color: #474747;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 15px;
 }
 .sublinhado{
     width: 150px;
-    background: #dbf614;
+    background-color: #ffda1f;
     height: 10px;
     margin: 0 auto;
+    margin-bottom: 30px;
+}
+a :hover{
+    transition: 0.5s;
+    opacity: 0.8;
+}
+footer{
+    background-color: #474747;
+
+}
+footer.item{
+    color: #fff
+}
+.depoimentos .item{
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente{
+    margin-bottom: -100px;
     margin-top: 10px;
-    margin-bottom: 10px; 
+}
+.depoimentos .nomes{
+    font-weight: bold;
+    text-transform: uppercase;
 }
