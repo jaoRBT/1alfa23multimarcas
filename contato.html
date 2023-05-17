@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,45 +9,176 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <section>
             <div id="header">
                 <div id="logotipo">
+
                     <img src="img/logotipo.png" alt="Logotipo MG Multimarcas">
+
                 </div>
-                
             </div>
         </section>
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="seminovos.html">Seminovos</a></li>
-                <li><a href="novos.html">Novos</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="index.html#financiamento.html">Financiamento</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <div id="main">
-        <div class="banner">
-            <img src="img/banner.jpg" alt="Banner ">
-        </div>
-        <section>
-            <div class="marcas">
-                <ul>
-                    <li>Hyundai</li>
-                    <li>Nissan</li>
-                    <li>Land Rover</li>
-                    <li>Tesla</li>
-                </ul>
+        <section class="content">
+            <div class="div-50 faleconosco">
+                <h3>fale com nossa equipe</h3>
+                <p>
+                    (44)9999-9999 - contato@falacomigobb.com<br>
+                    Rua Miranda Rua, 0177 - centro Umuarama - PR
+                </p>
+                <form action="" method="_GET">
+                    <div class="campo">
+
+                        <input type="text" name="nome" id="nome" placeholder="nome">
+
+                    </div>
+                    <div class="campo">
+
+                        <input type="email" name="email" id="email" placeholder="e-mail">
+
+                    </div>
+                    <div class="campo">
+
+                        <select name="assunto" id="assunto">
+                            <option> Escolha um assunto </option>
+                            <option value="financiamento">Financiamento</option>
+                            <option value="vendas">Vendas</option>
+                            <option value="reclamacoes">Reclamações</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="gerencia">Gerência</option>
+                        </select>
+                        <div class="campo">
+                            Quando deseja receber nosso retorno
+                            <ul>
+                                <li>
+                                    <label for="manha">Manhã
+                                        <input type="radio" name="horario" value="manha" id="manha">
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="tarde">Tarde
+                                        <input type="radio" name="horario" value="tarde" id="tarde">
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="noite">Noite
+                                        <input type="radio" name="horario" value="noite" id="manha">
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="campo">
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="campo">
+                        <input type="submit">
+                    </div>
+                </form>
+
             </div>
+
+
+
+
+            <div class="div-50">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.806466997725!2d-53.28367698440338!3d-23.754279874631287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f2d1e658459f85%3A0x7b81c993c8545f96!2sFaculdade%20ALFA%20Umuarama%20-%20UniALFA!5e0!3m2!1spt-BR!2sbr!4v1681262082441!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </div>
-</body>
-<footer>
-    <div class="contato">
-        <a href="#">Ligue: (44)999999999</a>
     </div>
-</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <section>
+            <div class="item contato">
+                <h3>Dados de contato</h3>
+                <p>
+                    (44)9999-9999<br>
+                    contato@falacomigobb.com<br>
+                    Rua Miranda Rua, 0177 - centro<br>
+                    Umuarama - PR
+                </p>
+                <p>
+                    Desenvolvido por <b>João Guilherme</b>
+                </p>
+            </div>
+            <div class="item">
+                <h3>
+                    fale com a gente
+                </h3>
+                <form class="contato">
+
+                    <input type="text" name="nome" placeholder="Insira seu nome">
+
+                    <input type="mail" nome="email" placeholder="insira seu e-mail">
+
+                    <textarea name="mensagem" placeholder="Sua mensagem"></textarea>
+
+                    <button>Enviar</button>
+                </form>
+            </div>
+            <div class="item">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="seminovos.html">Seminovos</a></li>
+                    <li><a href="#financiamento">Financiamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <h3>Nos siga nas redes sociais</h3>
+                <ul class="social">
+                    <li><a href="link do face" target="_blank"></a></li>
+                    <i class="fa-brands fa-facebook"></i>
+
+                    <li><a href="link do Insta" target="_blank"></a></li>
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <li><a href="link do twitter" target="_blank"></a></li>
+                    <i class="fa-brands fa-twitter"></i>
+
+                    <li><a href="link do zap" target="_blank"></a></li>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </ul>
+
+            </div>
+        </section>
+
+        <script src="https://kit.fontawesome.com/b82f5ae24a.js" crossorigin="anonymous"></script>
+
+    </footer>
+
 </html>
